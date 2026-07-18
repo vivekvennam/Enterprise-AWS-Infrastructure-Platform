@@ -1,0 +1,27 @@
+# Terraform
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+
+# Terraform Variables
+*.tfvars
+
+# Private Keys
+*.pem
+*.key
+bastion-key
+bastion-key.pub
+vprofilekey
+vprofilekey.pub
+
+# Maven
+target/
+
+# IDE
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
